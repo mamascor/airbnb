@@ -3,6 +3,7 @@ import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import getCenter from "geolib/es/getCenter";
 
 const Map = ({ searchResults }) => {
+                  
   const [selectedLocation, setSelectedLocation] = useState({});
 
   //   Transform coordinates into required array of objects in the correct shape
